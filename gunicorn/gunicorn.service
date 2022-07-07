@@ -10,7 +10,7 @@ ExecStart=/home/ubuntu/sus3live/venv_django/bin/gunicorn \
     --access-logfile gunicorn/gunicorn-access.log \
     --error-logfile gunicorn/gunicorn-error.log \
     --workers 3 \
-    --bind unix:/home/ubuntu/sus3live/gunicorn/django.sock \
+    --bind unix:/home/ubuntu/sus_3_live/gunicorn/django.sock \
     sus_3_live.wsgi:application
 
 [Install]
